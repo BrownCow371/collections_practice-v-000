@@ -4,5 +4,5 @@ def sort_array_asc(array_of_int)
 end
 
 def sort_array_desc(array_of_int)
-  array_of_int.sort {|x,y| y <==> x}
+  array_of_int.sort {|x,y| y <=> x}
 end
